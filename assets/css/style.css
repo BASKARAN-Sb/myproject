@@ -1,0 +1,334 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #79a9da;
+}
+/* -------start of tophead------ */
+#tophead{background-color: #024;
+}
+#tophead a{
+    color: white;
+    font-size:14px;
+}
+#tophead i{
+    color: white;
+}
+
+/* ------end of tophead-------- */
+.navbar{
+    min-height: 4rem;
+    background-color: #7952b3;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+    font-size:20px;
+    font-family: Roboto;
+}
+#myNav ul li a{
+        color: rgba(255,255,255,0.85);
+}
+   
+#myNav ul li .active{
+    color:rgb(100, 7, 43);
+}
+#myNav ul li :hover{
+    color:lawngreen;
+}
+/*-------- end of the header-------- */
+
+/* ---------start of the slideshow-------- */
+.slideimg img 
+{
+        height:400px;
+}
+
+
+/* ---------start of the slideshow-------- */
+
+/* ---------start of the jumbotron---------- */
+.change-colour{
+   
+box-shadow: 0px 5px 11.44px 1.56px rgb(0 0 0 / 34%); }
+.jumbotron{
+    background-color:#8ededc ;
+}
+
+    /* ---------end of the jumbotron---------- */
+
+.card img{
+    height:200px;
+    }
+.card-footer{
+    text-align:inherit;
+  }
+
+/*-------- end of the card-------- */
+
+.article-head .article-text h1{
+    font-weight:400;
+    color: #050d85;
+    font-family: Poppins,sans-serif;
+    }
+.section-divider{
+    background-color: #050d85;
+    height: 2px;
+    width: 162px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+.article-head-text {
+    margin-top:10px;
+    }
+    .article-head-text {
+        color:inherit;
+    }
+   
+    .article-list{
+        list-style-type:none ;
+    }
+
+       /*-----End of the articles------  */
+
+       /* ----start of the footer */
+
+footer{
+    background-color: #001b33;
+    position: relative;
+   height:185px;
+    
+}
+
+/* .et-footer-nav p
+{
+    background-color:hsla(0,0%,100%,.05);
+} */
+.footer-list p{
+    
+    color: white;
+    text-align: center;
+} 
+.f_l ul{
+    color: white;
+   padding-top: 17px;
+    text-align: center;
+}
+.f_l2 ul{
+    color: white;
+    text-align: center;
+}
+.f_l ul li,.f_l2 ul li{
+    display: inline;
+    padding-left:10px;
+    font-size:17.5px;
+}
+.foot_icon{
+    color: rgba(25, 22, 204, 0.884);
+    position:fixed;
+  
+    bottom:210px;
+}
+.foot_icon i{
+    position:fixed;
+   left:10px;
+    font-size:35px;
+}
+.foot_icon ul li{
+    padding-top:55px;
+    cursor: pointer;
+}
+/* -------end of the footer-------- */
+
+/* -------start of the about page-----start of the  article  */
+.about-content{
+    font-weight: 400;
+    font-size: 17px;
+    line-height:27px;
+}
+.about-num h4{
+    padding: 20px;
+    font-size: 20px;
+}
+.title h2{
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-size: 27px;
+    text-align: center;
+}
+.card-img-overlay h4{
+    color: white;
+    text-align: center;
+    transform:translateY(70%);
+    display: none;
+    
+}
+.img-thumbnail:hover{
+    opacity: 0.5;
+}
+
+
+/* ---------End of the about pages --------- */
+/* ----------start of the contact pages------- */
+.style-hr{
+    height: 15px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #700505 inset;   
+}
+/* ----------end of the contact pages------- */
+
+/* ---------course pages---------- */
+.listed h3{
+    font-size: 25px;
+    
+    text-align: center;
+    color: #0b3158;
+    
+}
+.listed ul{
+list-style: none;
+padding-left: 130px;
+font-size:18px;
+line-height: 30px;
+font-weight:500;
+color: #7F8B9A;
+   }
+   .section h2{
+    font-size: 30px;
+    color: #0b3867;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+.row{  margin-left:-20px ;
+    margin-right:-20px;}   
+
+    .clr_anmt{
+        color: red;
+        animation-name:example1;
+        animation-duration:4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example1{
+        from{color: red;}
+        to{color: blue;}
+    }
+
+    .anmt
+    {
+        background-color: red;
+        animation-name:example;
+        animation-duration:4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example {
+        from {background-color: red;}
+        to {background-color: yellow;}
+      }
+.featureinner{
+    box-shadow: 0px 0px 40px 20px rgb(203 206 227 / 30%);
+   min-width: 250px;
+   max-width:450px;
+    background-color:#fff;
+    text-align: center;
+    padding: 25px;
+  }
+
+.featureinner i{
+    font-size: 30px;
+    color: blue;
+    font-weight:800;
+}
+.featureinner h4{
+    font-size: 20px;
+    margin-top: 20px;
+   margin-bottom:20px;
+   font-weight:700;
+}
+.featureinner p{
+    font-size: 15px;
+    color:#6c6b6b;
+    line-height:23px;
+}
+.webcontent p{
+ font-size: 17.5px;
+ line-height: 28px;
+ font-weight:400;
+}
+.feel h3,.contactborder{
+color: white;
+}
+.contactborder{
+    font-size:30px;
+}
+
+/* --------software pages-------- */
+.softcard-body{
+    background-color: #007bff;
+    color: #fff;
+}
+.softcard-head{
+    background-color: #2165a0;}
+.softcard-head a{
+    color:#d2e70ee8;  
+}
+.iconplus{
+    float: right;
+    font-size: 25px;
+    color:green ;
+    cursor: pointer;
+}
+/* --------Start of the Network pages-------- */
+.netcolour{
+    background-image: linear-gradient(
+        180deg
+        ,#2b87da 0%,#29c4a9 100%)!important;
+}
+.nettext {
+    color: white;
+}
+.iconimage img{
+    border: 3px solid rgb(7, 95, 129);
+    width:185px;
+    border-radius: 20px;
+}
+
+                            /*---------media queries--------  */
+
+
+@media all and (max-width:960px){
+    .navbar-nav{
+        text-align:center;
+    }
+}
+@media all and (max-width:960px){
+    .indexcard{
+        margin-bottom: 25px;
+    }
+    .article-head h1{
+        font-size:20px;
+     }
+     .article-head-text p{
+        font-size:15px;
+     }
+}
+@media all and (max-width:768px)
+{
+    .article-img img{
+    margin-bottom: 25px;}
+    .featureinner{
+        margin-bottom: 25px;
+        margin-left:15px;
+    }
+}
+@media all and (max-width:768px){
+    .f_l2 ul{
+        font-size: 14.5px;
+    }
+}
+@media all and(max-width:768px){
+    .pane-content{
+        width:100px
+    }
+}
